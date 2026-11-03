@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos | Tienda Informática</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f1f5f9;
+            color: #334155;
+        }
+
+        header {
+            background-color: #1e293b;
+            color: white;
+            text-align: center;
+            padding: 40px;
+        }
+
+        nav {
+            background-color: #334155;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .productos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+            gap: 20px;
+        }
+
+        article {
+            background-color: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+        }
+
+        article h3 {
+            color: #2563eb;
+        }
+
+        .precio {
+            font-weight: bold;
+            font-size: 20px;
+            color: #16a34a;
+        }
+
+        footer {
+            background-color: #1e293b;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Tienda de Informática</h1>
+        <p>Los mejores productos tecnológicos</p>
+    </header>
+
+    <nav>
+        <a href="productos.html">Productos</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+
+    <main>
+        <h2>Nuestros productos</h2>
+
+        <section class="productos">
+            <article>
+                <h3>Ordenador portátil</h3>
+                <p>Portátil ideal para estudiar y programar.</p>
+                <p class="precio">799 €</p>
+            </article>
+
+            <article>
+                <h3>Monitor 27 pulgadas</h3>
+                <p>Monitor Full HD para trabajar cómodamente.</p>
+                <p class="precio">189 €</p>
+            </article>
+
+            <article>
+                <h3>Teclado mecánico</h3>
+                <p>Teclado con iluminación RGB.</p>
+                <p class="precio">69 €</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Tienda de Informática - Proyecto Git Flow</p>
+    </footer>
+
+</body>
+</html>
